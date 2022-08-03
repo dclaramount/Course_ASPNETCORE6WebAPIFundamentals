@@ -1,4 +1,23 @@
 ﻿<Properties StartupConfiguration="{4F1C0A1C-BEE7-4BF6-932E-C737396C2DEB}|Default">
-  <MonoDevelop.Ide.ItemProperties.CitiInfo.API FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CitiInfo" expanded="True">
+            <Node name="CitiInfo.API" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CitiInfo.API PreferredExecutionTarget="/Applications/Firefox.app" FirstBuild="True" />
   <MultiItemStartupConfigurations />
 </Properties>
