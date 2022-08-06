@@ -22,13 +22,23 @@ namespace CitiInfo.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<PointOfInterestDto>> GetPointsOfInterest(int cityId)
         {
-            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
-            if (city==null)
+            try
             {
-                _logger.LogInformation($"City with id {cityId} wasnt found when accesing points of interest.");
-                return NotFound();
+                throw new ArgumentNullException();
+                var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+                if (city == null)
+                {
+                    _logger.LogInformation($"City with id {cityId} wasnt found when accesing points of interest.");
+                    return NotFound();
+                }
+                return Ok(city.PointsOfInterest);
             }
-            return Ok(city.PointsOfInterest);
+            catch (Exception ex )
+            {
+                _logger.LogCritical($"Exception while getting points of interest for city with id {cityId}.", ex);
+                return StatusCode(500, "A problem happened while handling your request");
+            }
+
         }
 
         // GET api/values/5
