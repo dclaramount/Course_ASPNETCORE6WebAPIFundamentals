@@ -64,10 +64,28 @@ namespace CitiInfo.API.Controllers
             return CreatedAtRoute("GetPointOfInterest", new { cityId = cityId, pointOfInterestId = finalPointOfInterest.Id }, finalPointOfInterest);
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut("{pointofinterestid}")]
+        public ActionResult UpdatePointOfInterest(int cityId, int pointOfInterestId, PointOfInterestForUpdateDto pointOfInterest)
         {
+            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+            if (city==null)
+            {
+                return NotFound();
+            }
+
+            //find point of interest
+            var pointofInterestFromStore = city.PointsOfInterest
+                .FirstOrDefault(c => c.Id == pointOfInterestId);
+
+            if (pointofInterestFromStore == null)
+            {
+                return NotFound();
+            }
+
+            pointofInterestFromStore.Name = pointOfInterest.Name;
+            pointofInterestFromStore.Description = pointOfInterest.Description;
+
+            return NoContent();
         }
 
         // DELETE api/values/5
