@@ -25,3 +25,7 @@
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/obj/Debug/net6.0/CitiInfo.API.pdb
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/obj/Debug/net6.0/CitiInfo.API.genruntimeconfig.cache
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/obj/Debug/net6.0/ref/CitiInfo.API.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
