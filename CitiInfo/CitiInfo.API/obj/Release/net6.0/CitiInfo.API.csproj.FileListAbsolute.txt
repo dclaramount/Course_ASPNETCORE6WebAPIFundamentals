@@ -39,3 +39,4 @@
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/obj/Release/net6.0/CitiInfo.API.pdb
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/obj/Release/net6.0/CitiInfo.API.genruntimeconfig.cache
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/obj/Release/net6.0/ref/CitiInfo.API.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Release/net6.0/appsettings.Production.json
