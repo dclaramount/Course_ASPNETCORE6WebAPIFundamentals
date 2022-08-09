@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "q0WDkU9/LehYqOZyDBCUVdoYLI1v2IMCJ6zVZoMiXhl7vRGe+u0ZXCzARDFAxWfLLmNqg3zi9zubflF34PxcYA==",
+  "dgSpecHash": "BH4p/jlpej8ej+lFKTjWVOYLnlXtbFMvEGaUKXMw1QsATPP4c9G1ibybUdhF3e6BvjzkxBCc5fgficHwNwsUsQ==",
   "success": true,
   "projectFilePath": "/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/CitiInfo.API.csproj",
   "expectedPackageFiles": [
+    "/Users/dclaramount/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.7/microsoft.aspnetcore.jsonpatch.6.0.7.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.7/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.7.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -11,9 +12,11 @@
     "/Users/dclaramount/.nuget/packages/microsoft.entityframeworkcore/6.0.8/microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.8/microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.8/microsoft.entityframeworkcore.analyzers.6.0.8.nupkg.sha512",
+    "/Users/dclaramount/.nuget/packages/microsoft.entityframeworkcore.design/6.0.8/microsoft.entityframeworkcore.design.6.0.8.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.8/microsoft.entityframeworkcore.relational.6.0.8.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.entityframeworkcore.sqlite/6.0.8/microsoft.entityframeworkcore.sqlite.6.0.8.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/6.0.8/microsoft.entityframeworkcore.sqlite.core.6.0.8.nupkg.sha512",
+    "/Users/dclaramount/.nuget/packages/microsoft.entityframeworkcore.tools/6.0.8/microsoft.entityframeworkcore.tools.6.0.8.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",

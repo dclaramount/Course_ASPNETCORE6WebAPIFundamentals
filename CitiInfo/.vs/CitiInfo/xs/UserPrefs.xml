@@ -3,19 +3,19 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CitiInfo.API/Controllers/PointsOfInterestController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CitiInfo.API/DbContexts/CityInfoContext.cs">
     <Files>
       <File FileName="CitiInfo.API/Controllers/PointsOfInterestController.cs" Line="33" Column="17" />
-      <File FileName="CitiInfo.API/Program.cs" Line="56" Column="1" />
       <File FileName="CitiInfo.API/Services/CloudMailService.cs" Line="10" Column="62" />
+      <File FileName="CitiInfo.API/DbContext/CityInfoContext.cs" Line="24" Column="1" />
+      <File FileName="CitiInfo.API/Program.cs" Line="26" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CitiInfo" expanded="True">
             <Node name="CitiInfo.API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="DbContexts" expanded="True" />
             </Node>
           </Node>
         </State>
