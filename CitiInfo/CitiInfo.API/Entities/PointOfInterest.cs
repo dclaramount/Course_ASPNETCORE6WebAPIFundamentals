@@ -18,6 +18,7 @@ namespace CitiInfo.API.Entities
         [ForeignKey("CityId")]
         public City? City { get; set; }
         public int CityId { get; set; }
+
         public PointOfInterest(string name)
         {
             Name = name;
