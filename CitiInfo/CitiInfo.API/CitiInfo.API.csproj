@@ -24,10 +24,12 @@
     <None Remove="Serilog.Sinks.File" />
     <None Remove="Serilog.Sinks.Console" />
     <None Remove="Services\" />
+    <None Remove="Entities\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Services\" />
+    <Folder Include="Entities\" />
   </ItemGroup>
 </Project>
