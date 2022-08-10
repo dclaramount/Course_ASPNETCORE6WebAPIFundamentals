@@ -3,19 +3,23 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CitiInfo.API/DbContexts/CityInfoContext.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CitiInfo.API/Controllers/CitiesController.cs">
     <Files>
-      <File FileName="CitiInfo.API/Controllers/PointsOfInterestController.cs" Line="33" Column="17" />
-      <File FileName="CitiInfo.API/Services/CloudMailService.cs" Line="10" Column="62" />
-      <File FileName="CitiInfo.API/DbContext/CityInfoContext.cs" Line="24" Column="1" />
-      <File FileName="CitiInfo.API/Program.cs" Line="26" Column="44" />
+      <File FileName="CitiInfo.API/DbContexts/CityInfoContext.cs" Line="69" Column="40" />
+      <File FileName="CitiInfo.API/Program.cs" Line="39" Column="71" />
+      <File FileName="CitiInfo.API/appsettings.Development.json" Line="11" Column="2" />
+      <File FileName="CitiInfo.API/Services/CityInfoRepository.cs" Line="12" Column="20" />
+      <File FileName="CitiInfo.API/Controllers/CitiesController.cs" Line="37" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CitiInfo" expanded="True">
             <Node name="CitiInfo.API" expanded="True">
-              <Node name="DbContexts" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -25,7 +29,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.CitiInfo.API PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

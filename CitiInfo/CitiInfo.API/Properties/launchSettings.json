@@ -12,7 +12,8 @@
     "CitiInfo.API": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:39007",
+      "launchUrl": "http://localhost:7222/swagger",
+      "applicationUrl": "http://localhost:7222",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
