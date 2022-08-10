@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BH4p/jlpej8ej+lFKTjWVOYLnlXtbFMvEGaUKXMw1QsATPP4c9G1ibybUdhF3e6BvjzkxBCc5fgficHwNwsUsQ==",
+  "dgSpecHash": "xQb+/xlOu3N9P0xMwG4r81wWVn22BMhJ+JX02rORnLaRIBf03VQtNj0T+LBDni5QUlFvQK3jdCjO4knkIWBavA==",
   "success": true,
   "projectFilePath": "/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/CitiInfo.API.csproj",
   "expectedPackageFiles": [
+    "/Users/dclaramount/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
+    "/Users/dclaramount/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.7/microsoft.aspnetcore.jsonpatch.6.0.7.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.7/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.7.nupkg.sha512",

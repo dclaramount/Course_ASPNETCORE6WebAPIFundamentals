@@ -66,3 +66,5 @@
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/AutoMapper.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

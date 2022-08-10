@@ -1,4 +1,5 @@
 ﻿using System;
+using AutoMapper;
 using CitiInfo.API.Models;
 using CitiInfo.API.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -10,27 +11,21 @@ namespace CitiInfo.API.Controllers
     public class CitiesController : ControllerBase
     {
         private readonly ICityInfoRepository _cityInfoRepository;
+        private readonly IMapper _mapper;
 
-        public CitiesController(ICityInfoRepository cityInfoRepository)
+
+        public CitiesController(ICityInfoRepository cityInfoRepository, IMapper mapper)
         {
             _cityInfoRepository = cityInfoRepository ?? throw new ArgumentNullException(nameof(cityInfoRepository));
-
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CityWithoutPointsOfInterestDto>>> GetCities()
         {
             var cityEntities = await _cityInfoRepository.GetCitiesAsync();
             var result = new List<CityWithoutPointsOfInterestDto>();
-            foreach(var cityEntity in cityEntities)
-            {
-                result.Add(new CityWithoutPointsOfInterestDto()
-                {
-                    Id = cityEntity.Id,
-                    Description = cityEntity.Description,
-                    Name = cityEntity.Name
-                });
-            }
-            return Ok(result);
+            
+            return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDto>>(cityEntities));
         }
 
         [HttpGet("{id}")]
