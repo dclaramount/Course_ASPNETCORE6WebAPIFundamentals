@@ -21,17 +21,23 @@ namespace CitiInfo.API.Services
             return await _context.Cities.OrderBy(c=>c.Name).ToListAsync();
         }
 
-        public async Task<IEnumerable<City>> GetCitiesAsync(string? name)
+        public async Task<IEnumerable<City>> GetCitiesAsync(string? name, string? searchQuery, int pageNumber, int pageSize)
         {
-            if (string.IsNullOrEmpty(name))
+
+            //collection to start from
+            var collection = _context.Cities as IQueryable<City>;
+            if (!string.IsNullOrEmpty(name))
             {
-                return await GetCitiesAsync();
+                name = name.Trim();
+                collection = collection.Where(c => c.Name == name);
             }
 
-            name = name.Trim();
-            return await _context.Cities.Where(c => c.Name == name)
-                                        .OrderBy(c => c.Name)
-                                        .ToListAsync();
+            if(!string.IsNullOrEmpty(searchQuery))
+            {
+                searchQuery = searchQuery.Trim();
+                collection = collection.Where(a => a.Name.Contains(searchQuery) || (a.Description != null && a.Description.Contains(searchQuery)));
+            }
+            return await collection.OrderBy(c => c.Name).Skip(pageSize *(pageNumber-1)).Take(pageSize).ToListAsync();
         }
 
         public async Task<City?> GetCityASync(int cityId, bool includePointsOfInterest)
