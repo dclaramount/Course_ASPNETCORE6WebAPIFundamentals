@@ -4,13 +4,10 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CitiInfo.API/Controllers/CitiesController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CitiInfo.API/Services/ICityInfoRepository.cs">
     <Files>
-      <File FileName="CitiInfo.API/DbContexts/CityInfoContext.cs" Line="69" Column="40" />
-      <File FileName="CitiInfo.API/Program.cs" Line="39" Column="71" />
-      <File FileName="CitiInfo.API/appsettings.Development.json" Line="11" Column="2" />
-      <File FileName="CitiInfo.API/Services/CityInfoRepository.cs" Line="12" Column="20" />
-      <File FileName="CitiInfo.API/Controllers/CitiesController.cs" Line="37" Column="53" />
+      <File FileName="CitiInfo.API/Controllers/PointsOfInterestController.cs" Line="72" Column="13" />
+      <File FileName="CitiInfo.API/Services/ICityInfoRepository.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +15,8 @@
           <Node name="CitiInfo" expanded="True">
             <Node name="CitiInfo.API" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Services" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
