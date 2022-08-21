@@ -1530,3 +1530,78 @@ WHERE "p"."CityId" = @__cityId_0
 2022-08-21 15:16:18.726 +02:00 [DBG] Connection id "0HMK3ESVN4N06" completed keep alive response.
 2022-08-21 15:16:18.726 +02:00 [DBG] 'CityInfoContext' disposed.
 2022-08-21 15:16:18.726 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/api/cities/1/pointsofinterest - - - 200 110 application/json;+charset=utf-8 112.7175ms
+2022-08-21 15:17:38.519 +02:00 [DBG] Connection id "0HMK3ESVN4N04" received FIN.
+2022-08-21 15:17:38.597 +02:00 [DBG] Connection id "0HMK3ESVN4N04" disconnecting.
+2022-08-21 15:17:38.597 +02:00 [DBG] Connection id "0HMK3ESVN4N04" stopped.
+2022-08-21 15:17:38.599 +02:00 [DBG] Connection id "0HMK3ESVN4N04" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-21 15:32:36.213 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-21 15:32:36.263 +02:00 [DBG] Hosting starting
+2022-08-21 15:32:36.289 +02:00 [INF] Now listening on: http://localhost:7222
+2022-08-21 15:32:36.289 +02:00 [DBG] Loaded hosting startup assembly CitiInfo.API
+2022-08-21 15:32:36.289 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-21 15:32:36.289 +02:00 [INF] Hosting environment: Development
+2022-08-21 15:32:36.289 +02:00 [INF] Content root path: /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/
+2022-08-21 15:32:36.289 +02:00 [DBG] Hosting started
+2022-08-21 15:32:36.326 +02:00 [DBG] Connection id "0HMK3F6E547IL" accepted.
+2022-08-21 15:32:36.327 +02:00 [DBG] Connection id "0HMK3F6E547IL" started.
+2022-08-21 15:32:37.325 +02:00 [DBG] Connection id "0HMK3F6E547IL" received FIN.
+2022-08-21 15:32:37.378 +02:00 [DBG] Connection id "0HMK3F6E547IL" sending FIN because: "The client closed the connection."
+2022-08-21 15:32:37.385 +02:00 [DBG] Connection id "0HMK3F6E547IL" disconnecting.
+2022-08-21 15:32:37.389 +02:00 [DBG] Connection id "0HMK3F6E547IL" stopped.
+2022-08-21 15:32:37.405 +02:00 [DBG] Connection id "0HMK3F6E547IM" accepted.
+2022-08-21 15:32:37.405 +02:00 [DBG] Connection id "0HMK3F6E547IM" started.
+2022-08-21 15:32:37.419 +02:00 [DBG] Connection id "0HMK3F6E547IM" received FIN.
+2022-08-21 15:32:37.420 +02:00 [DBG] Connection id "0HMK3F6E547IM" sending FIN because: "The client closed the connection."
+2022-08-21 15:32:37.420 +02:00 [DBG] Connection id "0HMK3F6E547IM" disconnecting.
+2022-08-21 15:32:37.427 +02:00 [DBG] Connection id "0HMK3F6E547IN" accepted.
+2022-08-21 15:32:37.427 +02:00 [DBG] Connection id "0HMK3F6E547IN" started.
+2022-08-21 15:32:37.437 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7222/swagger - -
+2022-08-21 15:32:37.437 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7222/swagger/index.html - -
+2022-08-21 15:32:37.439 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-21 15:32:37.439 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-21 15:32:37.461 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/swagger - - - 0 - - 26.1688ms
+2022-08-21 15:32:37.462 +02:00 [DBG] Connection id "0HMK3F6E547IM" stopped.
+2022-08-21 15:32:37.490 +02:00 [DBG] Connection id "0HMK3F6E547IN" completed keep alive response.
+2022-08-21 15:32:37.490 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/swagger/index.html - - - 200 - text/html;charset=utf-8 55.2093ms
+2022-08-21 15:32:37.551 +02:00 [DBG] Connection id "0HMK3F6E547IN" received FIN.
+2022-08-21 15:32:37.551 +02:00 [DBG] Connection id "0HMK3F6E547IN" sending FIN because: "The client closed the connection."
+2022-08-21 15:32:37.551 +02:00 [DBG] Connection id "0HMK3F6E547IN" disconnecting.
+2022-08-21 15:32:37.553 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7222/swagger/favicon-16x16.png - -
+2022-08-21 15:32:37.566 +02:00 [DBG] Connection id "0HMK3F6E547IO" accepted.
+2022-08-21 15:32:37.566 +02:00 [DBG] Connection id "0HMK3F6E547IO" started.
+2022-08-21 15:32:37.566 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7222/swagger/v1/swagger.json - -
+2022-08-21 15:32:37.557 +02:00 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2022-08-21 15:32:37.569 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2022-08-21 15:32:37.569 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/swagger/favicon-16x16.png - - - 0 665 image/png 16.0195ms
+2022-08-21 15:32:37.569 +02:00 [DBG] Connection id "0HMK3F6E547IN" stopped.
+2022-08-21 15:32:37.640 +02:00 [DBG] Connection id "0HMK3F6E547IO" completed keep alive response.
+2022-08-21 15:32:37.640 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.0990ms
+2022-08-21 15:33:32.690 +02:00 [DBG] Config reload token fired. Checking for changes...
+2022-08-21 15:33:37.786 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-21 15:33:37.836 +02:00 [DBG] Hosting starting
+2022-08-21 15:33:37.862 +02:00 [INF] Now listening on: http://localhost:7222
+2022-08-21 15:33:37.862 +02:00 [DBG] Loaded hosting startup assembly CitiInfo.API
+2022-08-21 15:33:37.862 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-21 15:33:37.862 +02:00 [INF] Hosting environment: Development
+2022-08-21 15:33:37.862 +02:00 [INF] Content root path: /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/
+2022-08-21 15:33:37.862 +02:00 [DBG] Hosting started
+2022-08-21 15:33:37.902 +02:00 [DBG] Connection id "0HMK3F70GBGGB" accepted.
+2022-08-21 15:33:37.902 +02:00 [DBG] Connection id "0HMK3F70GBGGB" started.
+2022-08-21 15:33:38.877 +02:00 [DBG] Connection id "0HMK3F70GBGGB" received FIN.
+2022-08-21 15:33:38.948 +02:00 [DBG] Connection id "0HMK3F70GBGGB" sending FIN because: "The client closed the connection."
+2022-08-21 15:33:38.958 +02:00 [DBG] Connection id "0HMK3F70GBGGB" disconnecting.
+2022-08-21 15:33:38.959 +02:00 [DBG] Connection id "0HMK3F70GBGGB" stopped.
+2022-08-21 15:33:38.974 +02:00 [DBG] Connection id "0HMK3F70GBGGC" accepted.
+2022-08-21 15:33:38.974 +02:00 [DBG] Connection id "0HMK3F70GBGGC" started.
+2022-08-21 15:33:39.007 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7222/swagger/index.html - -
+2022-08-21 15:33:39.008 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-21 15:33:39.057 +02:00 [DBG] Connection id "0HMK3F70GBGGC" completed keep alive response.
+2022-08-21 15:33:39.058 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/swagger/index.html - - - 200 - text/html;charset=utf-8 52.9743ms
+2022-08-21 15:33:39.126 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7222/swagger/v1/swagger.json - -
+2022-08-21 15:33:39.197 +02:00 [DBG] Connection id "0HMK3F70GBGGC" completed keep alive response.
+2022-08-21 15:33:39.197 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 71.5963ms
