@@ -11,9 +11,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CitiInfo.API.Controllers
 {
-    [Route("api/cities/{cityId}/pointsofinterest")]
+    [Route("api/v{version:apiVersion}/cities/{cityId}/pointsofinterest")]
     [ApiController]
-   // [Authorize(Policy ="MustBeFromAntwerp")]
+    // [Authorize(Policy ="MustBeFromAntwerp")]
+    [ApiVersion("2.0")]
     public class PointsOfInterestController : ControllerBase
     {
         private readonly ILogger<PointsOfInterestController> _logger;
@@ -35,10 +36,10 @@ namespace CitiInfo.API.Controllers
         {
             var cityName = User.Claims.FirstOrDefault(c => c.Type == "city")?.Value;
 
-            if (!await _cityInfoRepository.CityNameMatchesCityId(cityName, cityId))
-            {
-                return Forbid();
-            }
+            //if (!await _cityInfoRepository.CityNameMatchesCityId(cityName, cityId))
+            //{
+            //    return Forbid();
+            //}
 
             if(!await _cityInfoRepository.CityExistAsync(cityId))
             {
