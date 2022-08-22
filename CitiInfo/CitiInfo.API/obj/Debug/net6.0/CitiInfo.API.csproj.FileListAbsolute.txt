@@ -68,3 +68,8 @@
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/obj/Debug/net6.0/CitiInfo.API.pdb
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/obj/Debug/net6.0/CitiInfo.API.genruntimeconfig.cache
 /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/obj/Debug/net6.0/ref/CitiInfo.API.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
