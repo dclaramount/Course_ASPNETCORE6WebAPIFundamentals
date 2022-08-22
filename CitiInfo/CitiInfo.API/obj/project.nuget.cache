@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GPpTRAFq0dEDa08vsTY/F/O3PP8PzEXuGcwFY1Ufr2zjG+97hOLSs1XvqTiEer2B7RI6LI34IO5q2WXUkExHMw==",
+  "dgSpecHash": "YSSMHUJZz4CN3Q1IC2OhLJzyG4OLuyn96is6Gs4gAiDT7J/ESEwe/SdivBE6weM4mxmNF/e0n0tm+ECp+a331Q==",
   "success": true,
   "projectFilePath": "/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/CitiInfo.API.csproj",
   "expectedPackageFiles": [
     "/Users/dclaramount/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/dclaramount/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.8/microsoft.aspnetcore.authentication.jwtbearer.6.0.8.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.7/microsoft.aspnetcore.jsonpatch.6.0.7.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.7/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.7.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -38,6 +39,8 @@
     "/Users/dclaramount/.nuget/packages/microsoft.identitymodel.abstractions/6.22.0/microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.22.0/microsoft.identitymodel.jsonwebtokens.6.22.0.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.identitymodel.logging/6.22.0/microsoft.identitymodel.logging.6.22.0.nupkg.sha512",
+    "/Users/dclaramount/.nuget/packages/microsoft.identitymodel.protocols/6.10.0/microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "/Users/dclaramount/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.10.0/microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.identitymodel.tokens/6.22.0/microsoft.identitymodel.tokens.6.22.0.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",

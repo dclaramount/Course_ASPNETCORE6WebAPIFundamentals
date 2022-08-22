@@ -3,12 +3,14 @@ using System.Text.Json;
 using AutoMapper;
 using CitiInfo.API.Models;
 using CitiInfo.API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CitiInfo.API.Controllers
 {
     [ApiController]
     [Route("api/cities")]
+    [Authorize]
     public class CitiesController : ControllerBase
     {
         private readonly ICityInfoRepository _cityInfoRepository;
