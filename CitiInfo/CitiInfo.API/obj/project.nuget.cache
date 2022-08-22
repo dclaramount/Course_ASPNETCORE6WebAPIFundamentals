@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YSSMHUJZz4CN3Q1IC2OhLJzyG4OLuyn96is6Gs4gAiDT7J/ESEwe/SdivBE6weM4mxmNF/e0n0tm+ECp+a331Q==",
+  "dgSpecHash": "6r/QIzBfPC591Wq0FzX9TARdg8EVjGtFSQGKBsxJ13APQqYUHP6dZUKm+8jMWQA9fRnbfrLHM2IXjtgwEkYq0g==",
   "success": true,
   "projectFilePath": "/Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/CitiInfo.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/dclaramount/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.8/microsoft.aspnetcore.authentication.jwtbearer.6.0.8.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.7/microsoft.aspnetcore.jsonpatch.6.0.7.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.7/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.7.nupkg.sha512",
+    "/Users/dclaramount/.nuget/packages/microsoft.aspnetcore.mvc.versioning/5.0.0/microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.data.sqlite.core/6.0.8/microsoft.data.sqlite.core.6.0.8.nupkg.sha512",
     "/Users/dclaramount/.nuget/packages/microsoft.entityframeworkcore/6.0.8/microsoft.entityframeworkcore.6.0.8.nupkg.sha512",

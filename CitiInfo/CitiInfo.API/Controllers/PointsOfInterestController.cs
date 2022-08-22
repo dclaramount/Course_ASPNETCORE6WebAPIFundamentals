@@ -13,7 +13,7 @@ namespace CitiInfo.API.Controllers
 {
     [Route("api/cities/{cityId}/pointsofinterest")]
     [ApiController]
-    [Authorize]
+   // [Authorize(Policy ="MustBeFromAntwerp")]
     public class PointsOfInterestController : ControllerBase
     {
         private readonly ILogger<PointsOfInterestController> _logger;
