@@ -1,0 +1,83 @@
+2022-08-24 17:09:31.315 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-24 17:09:31.384 +02:00 [DBG] Hosting starting
+2022-08-24 17:09:31.394 +02:00 [INF] User profile is available. Using '/Users/dclaramount/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-08-24 17:09:31.396 +02:00 [DBG] Reading data from file '/Users/dclaramount/.aspnet/DataProtection-Keys/key-dfc3d096-6464-4d21-bf5c-ded317f71809.xml'.
+2022-08-24 17:09:31.401 +02:00 [DBG] Found key {dfc3d096-6464-4d21-bf5c-ded317f71809}.
+2022-08-24 17:09:31.406 +02:00 [DBG] Considering key {dfc3d096-6464-4d21-bf5c-ded317f71809} with expiration date 2022-11-20 14:16:49Z as default key.
+2022-08-24 17:09:31.407 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-08-24 17:09:31.410 +02:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2022-08-24 17:09:31.410 +02:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2022-08-24 17:09:31.412 +02:00 [DBG] Using key {dfc3d096-6464-4d21-bf5c-ded317f71809} as the default key.
+2022-08-24 17:09:31.413 +02:00 [DBG] Key ring with default key {dfc3d096-6464-4d21-bf5c-ded317f71809} was loaded during application startup.
+2022-08-24 17:09:31.442 +02:00 [INF] Now listening on: http://localhost:7222
+2022-08-24 17:09:31.442 +02:00 [DBG] Loaded hosting startup assembly CitiInfo.API
+2022-08-24 17:09:31.442 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-24 17:09:31.442 +02:00 [INF] Hosting environment: Development
+2022-08-24 17:09:31.442 +02:00 [INF] Content root path: /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/
+2022-08-24 17:09:31.442 +02:00 [DBG] Hosting started
+2022-08-24 17:09:31.515 +02:00 [DBG] Connection id "0HMK5SAIQTDM3" accepted.
+2022-08-24 17:09:31.516 +02:00 [DBG] Connection id "0HMK5SAIQTDM3" started.
+2022-08-24 17:09:32.485 +02:00 [DBG] Connection id "0HMK5SAIQTDM3" received FIN.
+2022-08-24 17:09:32.491 +02:00 [DBG] Connection id "0HMK5SAIQTDM3" sending FIN because: "The client closed the connection."
+2022-08-24 17:09:32.495 +02:00 [DBG] Connection id "0HMK5SAIQTDM3" disconnecting.
+2022-08-24 17:09:32.497 +02:00 [DBG] Connection id "0HMK5SAIQTDM3" stopped.
+2022-08-24 17:09:32.687 +02:00 [DBG] Connection id "0HMK5SAIQTDM4" accepted.
+2022-08-24 17:09:32.688 +02:00 [DBG] Connection id "0HMK5SAIQTDM4" started.
+2022-08-24 17:09:32.725 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7222/Swagger/index.html - -
+2022-08-24 17:09:32.727 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-24 17:09:32.779 +02:00 [DBG] Connection id "0HMK5SAIQTDM4" completed keep alive response.
+2022-08-24 17:09:32.781 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/Swagger/index.html - - - 200 - text/html;charset=utf-8 57.8178ms
+2022-08-24 17:09:32.838 +02:00 [DBG] Connection id "0HMK5SAIQTDM4" received FIN.
+2022-08-24 17:09:32.838 +02:00 [DBG] Connection id "0HMK5SAIQTDM4" sending FIN because: "The client closed the connection."
+2022-08-24 17:09:32.838 +02:00 [DBG] Connection id "0HMK5SAIQTDM4" disconnecting.
+2022-08-24 17:09:32.839 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7222/Swagger/favicon-16x16.png - -
+2022-08-24 17:09:32.851 +02:00 [DBG] Connection id "0HMK5SAIQTDM5" accepted.
+2022-08-24 17:09:32.851 +02:00 [DBG] Connection id "0HMK5SAIQTDM5" started.
+2022-08-24 17:09:32.851 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7222/Swagger/v1/swagger.json - -
+2022-08-24 17:09:32.844 +02:00 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2022-08-24 17:09:32.856 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2022-08-24 17:09:32.856 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/Swagger/favicon-16x16.png - - - 0 665 image/png 16.8614ms
+2022-08-24 17:09:32.856 +02:00 [DBG] Connection id "0HMK5SAIQTDM4" stopped.
+2022-08-24 17:09:32.929 +02:00 [DBG] Connection id "0HMK5SAIQTDM5" completed keep alive response.
+2022-08-24 17:09:32.929 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.9840ms
+2022-08-24 17:11:28.227 +02:00 [DBG] Connection id "0HMK5SAIQTDM5" received FIN.
+2022-08-24 17:11:28.276 +02:00 [DBG] Connection id "0HMK5SAIQTDM5" disconnecting.
+2022-08-24 17:11:28.278 +02:00 [DBG] Connection id "0HMK5SAIQTDM5" sending FIN because: "The client closed the connection."
+2022-08-24 17:11:28.327 +02:00 [DBG] Connection id "0HMK5SAIQTDM5" stopped.
+2022-08-24 17:14:35.575 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-24 17:14:35.642 +02:00 [DBG] Hosting starting
+2022-08-24 17:14:35.650 +02:00 [INF] User profile is available. Using '/Users/dclaramount/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-08-24 17:14:35.651 +02:00 [DBG] Reading data from file '/Users/dclaramount/.aspnet/DataProtection-Keys/key-dfc3d096-6464-4d21-bf5c-ded317f71809.xml'.
+2022-08-24 17:14:35.657 +02:00 [DBG] Found key {dfc3d096-6464-4d21-bf5c-ded317f71809}.
+2022-08-24 17:14:35.663 +02:00 [DBG] Considering key {dfc3d096-6464-4d21-bf5c-ded317f71809} with expiration date 2022-11-20 14:16:49Z as default key.
+2022-08-24 17:14:35.664 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-08-24 17:14:35.667 +02:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2022-08-24 17:14:35.667 +02:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2022-08-24 17:14:35.669 +02:00 [DBG] Using key {dfc3d096-6464-4d21-bf5c-ded317f71809} as the default key.
+2022-08-24 17:14:35.669 +02:00 [DBG] Key ring with default key {dfc3d096-6464-4d21-bf5c-ded317f71809} was loaded during application startup.
+2022-08-24 17:14:35.700 +02:00 [INF] Now listening on: http://localhost:7222
+2022-08-24 17:14:35.701 +02:00 [DBG] Loaded hosting startup assembly CitiInfo.API
+2022-08-24 17:14:35.701 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-24 17:14:35.701 +02:00 [INF] Hosting environment: Development
+2022-08-24 17:14:35.701 +02:00 [INF] Content root path: /Users/dclaramount/Projects/PluralSight/Course_ASPNETCORE6WebAPIFundamentals/CitiInfo/CitiInfo.API/
+2022-08-24 17:14:35.701 +02:00 [DBG] Hosting started
+2022-08-24 17:14:35.782 +02:00 [DBG] Connection id "0HMK5SDDGKGLN" accepted.
+2022-08-24 17:14:35.783 +02:00 [DBG] Connection id "0HMK5SDDGKGLN" started.
+2022-08-24 17:14:36.757 +02:00 [DBG] Connection id "0HMK5SDDGKGLN" received FIN.
+2022-08-24 17:14:36.770 +02:00 [DBG] Connection id "0HMK5SDDGKGLN" sending FIN because: "The client closed the connection."
+2022-08-24 17:14:36.779 +02:00 [DBG] Connection id "0HMK5SDDGKGLN" disconnecting.
+2022-08-24 17:14:36.783 +02:00 [DBG] Connection id "0HMK5SDDGKGLN" stopped.
+2022-08-24 17:14:36.865 +02:00 [DBG] Connection id "0HMK5SDDGKGLO" accepted.
+2022-08-24 17:14:36.865 +02:00 [DBG] Connection id "0HMK5SDDGKGLO" started.
+2022-08-24 17:14:36.896 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7222/Swagger/index.html - -
+2022-08-24 17:14:36.898 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-24 17:14:36.948 +02:00 [DBG] Connection id "0HMK5SDDGKGLO" completed keep alive response.
+2022-08-24 17:14:36.949 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/Swagger/index.html - - - 200 - text/html;charset=utf-8 54.6463ms
+2022-08-24 17:14:37.026 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7222/Swagger/v1/swagger.json - -
+2022-08-24 17:14:37.110 +02:00 [DBG] Connection id "0HMK5SDDGKGLO" completed keep alive response.
+2022-08-24 17:14:37.110 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7222/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.3327ms
